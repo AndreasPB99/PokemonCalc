@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from pokemon import Pokemon
+from src.pokemon import Pokemon
 
 @dataclass
 class Player:

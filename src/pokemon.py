@@ -1,9 +1,10 @@
 from dataclasses import dataclass
 from abc import ABC
-from move import Move
-from ability import *
-from type import Type
+from src.move import Move
+from src.ability import *
+from src.type import Type
 from typing import Tuple, Optional
+
 
 @dataclass
 class Stats:

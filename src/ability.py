@@ -1,5 +1,5 @@
 from abc import ABC
-from move import Move
+from src.move import Move
 
 
 class Ability(ABC):
@@ -27,7 +27,7 @@ class Nothing(Ability):
     def __str__(self):
         pass
 
-    
+
 class Technician(Ability):
     name = 'technician'
 

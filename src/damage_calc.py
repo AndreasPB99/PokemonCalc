@@ -1,5 +1,5 @@
-from pokemon import Pokemon
-from move import Move
+from src.pokemon import Pokemon
+from src.move import Move
 
 
 def attack(attacker: Pokemon, defender: Pokemon, move: Move) -> int:
