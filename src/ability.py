@@ -21,12 +21,6 @@ class Ability(ABC):
 class Nothing(Ability):
     name = 'nothing'
 
-    def attack(self, move: Move):
-        pass
-
-    def __str__(self):
-        pass
-
 
 class Technician(Ability):
     name = 'technician'
